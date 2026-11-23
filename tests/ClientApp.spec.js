@@ -1,7 +1,7 @@
 const {test, expect} = require ('@playwright/test');
 
 
-test.only("Login and get first title", async({page})=> {
+test("Login and get first title", async({page})=> {
 
     const productName= "ZARA COAT 3";
     const products = page.locator(".card-body");
